@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin: 0 auto;
+        width: fit-content;
+    }
+    .header {
+        grid-column: 1 / span 3;
+        background-color: #0df5e9;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .debar{
+        grid-column: 1;
+        background-color: #35f355;
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .main-content {
+        grid-column: 2;
+        background-color: #dc34e2;
+        padding: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .footer {
+        grid-column: 1 / span 3;
+        background-color: #2e59b6;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .card {
+            border: 1px solid black;  
+            width: 1%;
+            border-spacing: 1px;
+            height: 5px;
+            justify-content: center;
+           
+           
+        }
+        .img {
+            margin-top: 50px;
+            height: 150px;
+            display: flex;
+           
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            
+
+
+        }
+
+        .info {
+            justify-content: center;
+          
+        }
+        .colspan4 {
+            grid-column-end: span 4; /* Span 2 columns */
+        }
+        .rowspan4 {
+            grid-row-end: span 4; /* Span 2 rows */
+        }
+
+</style>
+</head>
+<body>
+<div class="grid-container">
+    <div class="header">Header</div>
+    <div class="debar rowpan4">Sidebar</div>
+    <div class="card">
+        <div class="img">
+            <img src="https://th.bing.com/th/id/R.1c9f44628cf925dad962a351f142d517?rik=P59iBBgHT2gvpw&riu=http%3a%2f%2fwww.misimagenesde.com%2fwp-content%2fuploads%2f2012%2f12%2ffacebook.png&ehk=IhwTXgRoE%2fI%2fjRQA4ebDFibgToj93Acg%2bgsUk6Z6xzI%3d&risl=&pid=ImgRaw&r=0" alt="Image">
+        </div>
+        <div class="info">
+            <h2>Facebook</h2>
+        <p>Facebook is a social networking site that makes it easy for you to connect and share with family and friends online.</p>
+        <button>View More</button>
+        </div>
+        
+    </div>
+
+    <div class="card">
+        <div class="img">
+            <img src="https://th.bing.com/th/id/OIP.xd3sxnfRDdSuGpIWv3Xf9wHaHZ?rs=1&pid=ImgDetMain" alt="Image">
+        </div>
+        <div class="info">
+            <h2>Instagram</h2>
+        <p>Instagram [a] is a photo and video sharing social networking service owned by Meta Platforms. It allows users to upload media that can be edited with filters, be organized by hashtags, and be associated with a location via geographical tagging.</p>
+        <button>View More</button>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="img">
+            <img src="https://th.bing.com/th/id/OIP._Ujco6PWCgH_UJfPXtPafAHaFj?rs=1&pid=ImgDetMain" alt="Image">
+        </div>
+        <div class="info">
+            <h2>Facebook</h2>
+        <p>Twitter is a social networking and microblogging online service that allows users to send and receive text-based messages or posts of up to 140 characters.</p>
+        <button>View More</button>
+        </div>
+    <div class="main-content"></div>
+    <div class="footer colspan4">footer                                             D  10-07-2014</div>
+</div>
+</body>
+</html>

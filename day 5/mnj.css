@@ -1,0 +1,48 @@
+body{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    margin-top:3px ;
+    background-color: blue;
+
+}
+.navbar{
+
+  
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.main h1{
+
+    color: white;
+}
+.main p{
+    color: white;
+
+}
+
+.main{
+    height: 100px;
+    margin-left: 50px;
+
+}
+.btn{
+    height: 20px;
+}
+.image{
+    height: 50px;
+    width: 50px;
+    margin-left:400px ;
+
+}
+.content{
+    display: flex;
+}

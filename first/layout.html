@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Layout </title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Three columns */
+            grid-template-rows: auto auto auto; /* Three rows */
+            gap: 8px; /* Gap between grid items */
+        }
+        .item {
+            padding: 8px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        .colspan4 {
+            grid-column-end: span 4; /* Span 2 columns */
+        }
+        .rowspan4 {
+            grid-row-end: span 4; /* Span 2 rows */
+        }
+    </style>
+</head>
+<body>
+    <h2>Div Layout with colspan and rowspan</h2>
+    <div class="container">
+    
+        <div class="item colspan5">Header </div>
+        <div class="item rowspan4">Header 3</div>
+        <div class="item">Subheader 1</div>
+        <div class="item">Subheader 2</div>
+        <div class="item">Row 1, Cell 1</div>
+        <div class="item">Row 1, Cell 2</div>
+        <div class="item ">Row 1, Cell 3</div>
+        <div class="item">Row 1, Cell 4</div>
+        <div class="item colspan4">Row 2, Cell 1 and 2 merged</div>
+        <div class="item">Row 2, Cell 3</div>
+        <div class="item colspan3">Row 3, Cell 1 to 3 merged</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+ #header ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+    /* justify-content: space-around;  */
+    gap: 20px;
+    width: 100%;
+ 
+}
+
+ul a {
+     /* border: 1px solid rgb(245, 243, 243);  */
+     text-decoration: none; 
+     font-size: 20px;
+     color: white; 
+     text-align: center;
+   
+}
+
+nav {
+    border: 1px;
+    background-color: rgb(155, 189, 110);
+    color: white;
+    padding: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;   
+}
+
+#mainContainer{
+    border: 2px solid red;
+    width: 90%;
+    height: auto;
+
+
+}
+
+#sidebar {
+    width: 30%;
+    background-color: bisque;
+    display: flex;
+    margin-top: 10px;
+    justify-items: center;
+    float:left;
+    height: 78vh;
+    margin-bottom: 36px;
+    
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#main {
+    float:right;
+    width: 70%;
+    margin-top: 10px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    /* padding: 3em; 
+    display: grid;
+    grid-gap: 20px; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+
+
+}
+
+.container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    /* height: 500px; */
+    justify-content:space-evenly;
+
+}
+
+.card {
+    border: 1px solid black;  
+    width: 30%;
+    border-spacing: 10px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+
+.img {
+    margin-top: 50px;
+    height: 150px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    justify-content: center;
+    /* position: relative; */
+    overflow: hidden;
+    
+
+
+}
+
+.info {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap; 
+  
+}
+
+#Bottom {
+    height:40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: fit-content;   */
+    background-color: rgb(48, 100, 172);
+
+}
+
+#Bottom ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+    /* justify-content: space-around;  */
+    gap: 20px;
+    width: 100%;
+    
+ 
+}
+
+#Bottom ul img{
+    height: 20px;
+    width: 20px;

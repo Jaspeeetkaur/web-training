@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(50, 50, 255);
+    display: flex;
+    margin-top:3px ;
+    margin-left:5px ;
+    margin-bottom: 5px;
+    margin-right:3px ;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav a{
+    color: white;
+   text-decoration: none;
+}
+.info h1{
+    color: white;
+    
+}
+.info p{
+color: white;
+}
+.info{
+    height: 100px;
+    margin-left: 50px;
+}
+.content{
+    display: flex;
+}
+.image{
+    height: 50px;
+    width: 50px;
+    margin-left:400px ;
+}
+.button{
+    height: 20px;
+}
